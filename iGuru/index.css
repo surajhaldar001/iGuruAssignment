@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-weight: bold;
+}
+
+.tc{
+    text-align: center;
+}
+
+.result-container{
+    border: 1px solid;
+    font-family: "Roboto";
+}
+
+.top-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.top-logo-head-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-container{
+    width: 90%;
+}
+
+.uni-name{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.uni-address{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.student-details-container{
+    padding: 4px;
+    border-width: 1px;
+    border-style: solid none none none;
+}
+
+.flex-container{
+    display: flex;
+}
+.details-flex{
+    width: 50%;
+}
+
+
+
+.tab{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: none solid;
+}
+th,td{
+    text-align: center;
+    border: 1px solid;
+    
+}
+
+.final-result-container{
+    border-width: 1px;
+    border-style: none solid none none;
+    justify-content: space-around;
+}
+
+.bot-row{
+    height: 100px;
+}
